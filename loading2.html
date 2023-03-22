@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Loading Page</title>
+    <style>
+      /* Center the content vertically and horizontally */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      /* Add animation to the logo */
+      @keyframes rotate {
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      /* Style the logo */
+      .logo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #000000;
+        animation: rotate 2s linear infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="logo"></div>
+    <script>
+      // Add a 5-second delay
+      setTimeout(function() {
+        // Redirect to the desired page after the delay
+        window.location.href = "http://www.tapthe.link/r28";
+      }, 5000);
+    </script>
+  </body>
+</html>
